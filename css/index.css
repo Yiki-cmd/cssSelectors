@@ -1,0 +1,33 @@
+
+/* 10. Pseudo-Element Selector */
+
+p::first-line{
+
+    font-size:2em;
+    color:red;
+}
+
+
+/* 9. Pseudo-Class Selector */
+
+a:hover {
+    color:green;
+    transition: 10ms;
+
+}
+
+/* 8. Group Selector */
+
+h1, P1 {
+    text-align: center;
+    color: brown;
+    font-size: 20px;
+}
+
+/* Child Selector */
+ul>li{
+
+    color: rgb(0, 255, 102);
+    font-size: medium;
+
+}
